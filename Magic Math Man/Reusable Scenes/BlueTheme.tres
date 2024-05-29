@@ -1,0 +1,57 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://dwoxpar5s6yce"]
+
+[ext_resource type="FontFile" uid="uid://dltk8r13eljo4" path="res://Reusable Scenes/joystix monospace.otf" id="1_2rfdc"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bqkrg"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4vsxe"]
+bg_color = Color(0, 0.27451, 0.439216, 1)
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(1.37173e-06, 0.274379, 0.43831, 1)
+shadow_size = 4
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1la0o"]
+bg_color = Color(0, 0.45098, 0.701961, 1)
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(1.37173e-06, 0.274379, 0.43831, 1)
+expand_margin_left = 2.0
+shadow_size = 4
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qjj2x"]
+bg_color = Color(1.37173e-06, 0.274379, 0.43831, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(1.37173e-06, 0.274379, 0.43831, 1)
+shadow_size = 4
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_th660"]
+bg_color = Color(0.219608, 0.627451, 0.945098, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.0461363, 0.370937, 0.596065, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+shadow_size = 3
+
+[resource]
+default_font = ExtResource("1_2rfdc")
+Button/styles/focus = SubResource("StyleBoxEmpty_bqkrg")
+Button/styles/hover = SubResource("StyleBoxFlat_4vsxe")
+Button/styles/normal = SubResource("StyleBoxFlat_1la0o")
+Button/styles/pressed = SubResource("StyleBoxFlat_qjj2x")
+Label/font_sizes/font_size = 15
+Label/styles/normal = SubResource("StyleBoxFlat_1la0o")
+LineEdit/font_sizes/font_size = 22
+LineEdit/styles/normal = SubResource("StyleBoxFlat_1la0o")
+Panel/styles/panel = SubResource("StyleBoxFlat_th660")
